@@ -1,0 +1,51 @@
+{
+  "initial_outreach": {
+    "key": "initial_outreach",
+    "name": "Initial Outreach",
+    "required_placeholders": [
+      "first_name"
+    ],
+    "body": "Hi {first_name}, thank you for connecting! I noticed your work and would love to exchange insights on modern workflow automation whenever convenient for you."
+  },
+  "interested_reply": {
+    "key": "interested_reply",
+    "name": "Interested Reply",
+    "required_placeholders": [
+      "first_name"
+    ],
+    "body": "Hi {first_name}, glad to hear you are interested! Would you be open to a brief 10-minute chat later this week to explore this further?"
+  },
+  "request_more_info": {
+    "key": "request_more_info",
+    "name": "Request for More Information",
+    "required_placeholders": [
+      "first_name"
+    ],
+    "body": "Hi {first_name}, here is a quick overview of how we streamline messaging and tracking workflows. Let me know if you would like me to share a detailed deck."
+  },
+  "not_interested": {
+    "key": "not_interested",
+    "name": "Not Interested",
+    "required_placeholders": [
+      "first_name"
+    ],
+    "body": "Hi {first_name}, completely understand! Thank you for letting me know, and I wish you all the best with your ongoing initiatives."
+  },
+  "unclear_reply": {
+    "key": "unclear_reply",
+    "name": "Unclear Reply",
+    "required_placeholders": [
+      "first_name"
+    ],
+    "body": "Hi {first_name}, thanks for getting back to me! Just to ensure I understand your goal, could you clarify what you have in mind?"
+  },
+  "five_day_followup": {
+    "key": "five_day_followup",
+    "name": "Five-Day Follow-up",
+    "required_placeholders": [
+      "first_name"
+    ],
+    "body": "Hi {first_name}, just following up on my previous note in case it got buried. No rush at all—would love to reconnect when your schedule permits!"
+  }
+}
+

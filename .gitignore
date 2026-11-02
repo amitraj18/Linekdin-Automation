@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Environment and secrets
+.env
+.env.*
+*.env
+!.env.example
+secrets/
+credentials/
+*.pem
+*.key
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+
+# Private workbooks & generated data
+data/*.xlsx
+data/*.csv
+data/*.bak
+data/contacts.xlsx
+data/scraped_replies.xlsx
+data/automation_cycles.xlsx
+!data/.gitkeep
+
+# Browser sessions & profiles
+browser_profile/
+user_data/
+playwright/.auth/
+.auth/
+storage_state.json
+**/storage_state.json
+
+# Logs
+logs/*.log
+*.log
+!logs/.gitkeep
+
+# Testing & coverage
+.coverage
+htmlcov/
+
+# IDE and OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
